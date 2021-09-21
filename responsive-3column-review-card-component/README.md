@@ -1,6 +1,8 @@
+ <h3>Responsive card component </h3>
+
 Live site: https://3-column-sora.netlify.app/
 
-Responsive card component
+
 
 preview (for desktop version) :
 
