@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    display: block;
+    margin: 8px;
+}
+.div {
+    display: blox;
+}
+.body {
+    padding: 20%;
+    font-size: 15px;
+    
+}
+.flex-container {
+    display: flex;
+    margin: 5% auto 0;
+    width: 70%;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+.flex-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+.flex-2 {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: none;
+}
+.flex-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    
+
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+}
+.flex-1 button {
+    color: hsl(31, 77%, 52%);
+}
+.flex-2 button {
+    color: hsl(184, 100%, 22%)
+} 
+.flex-3 button {
+    color: hsl(179, 100%, 13%);
+}
+button {
+    color: hsla(0, 0%, 100%, 0.75);
+    border-radius: 50px;
+    margin-top: 80px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.card {
+    width: 32%;
+}
+
+button:hover {
+    background-color: inherit;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 11px 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 400px) {
+    .flex-container {
+      width: 100%;
+      flex-flow: column wrap;
+    }
+    .card {
+      width: 100%;
+    }
+    .flex-1 {
+      border-radius: 10px 10px 0 0;
+    }
+    .flex-3{
+      border-radius: 0 0 10px 10px;
+    }
+  }
+  
