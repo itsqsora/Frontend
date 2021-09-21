@@ -1,6 +1,6 @@
  <h3>Responsive card component </h3>
 
-Live site: https://3-column-sora.netlify.app/
+Live site: <a href="https://3-column-sora.netlify.app/" target="_blank">Click here</a>
 
 
 
